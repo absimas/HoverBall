@@ -191,7 +191,7 @@ class BallScene: SKScene, SKPhysicsContactDelegate {
     }
     
     func increase(node: SKNode) {
-        node.runAction(SKAction.scaleBy(1.01, duration: MOVEMENT_TIME))
+        node.runAction(SKAction.scaleBy(1.04, duration: MOVEMENT_TIME))
     }
     
     override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
