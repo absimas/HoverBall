@@ -14,6 +14,7 @@
 		40F4EF941AAB005900929FA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40F4EF931AAB005900929FA9 /* Images.xcassets */; };
 		40F4EF971AAB005900929FA9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40F4EF951AAB005900929FA9 /* LaunchScreen.xib */; };
 		40F4EFA31AAB005900929FA9 /* HoverBall2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F4EFA21AAB005900929FA9 /* HoverBall2Tests.swift */; };
+		40F4EFAD1AAB007F00929FA9 /* BallScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40F4EFAC1AAB007F00929FA9 /* BallScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		40F4EF9C1AAB005900929FA9 /* HoverBall2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoverBall2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		40F4EFA11AAB005900929FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40F4EFA21AAB005900929FA9 /* HoverBall2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoverBall2Tests.swift; sourceTree = "<group>"; };
+		40F4EFAC1AAB007F00929FA9 /* BallScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BallScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				40F4EF951AAB005900929FA9 /* LaunchScreen.xib */,
 				40F4EF8B1AAB005800929FA9 /* HoverBall2.xcdatamodeld */,
 				40F4EF871AAB005800929FA9 /* Supporting Files */,
+				40F4EFAC1AAB007F00929FA9 /* BallScene.swift */,
 			);
 			path = HoverBall2;
 			sourceTree = "<group>";
@@ -218,6 +221,7 @@
 				40F4EF8F1AAB005900929FA9 /* ViewController.swift in Sources */,
 				40F4EF8D1AAB005800929FA9 /* HoverBall2.xcdatamodeld in Sources */,
 				40F4EF8A1AAB005800929FA9 /* AppDelegate.swift in Sources */,
+				40F4EFAD1AAB007F00929FA9 /* BallScene.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
