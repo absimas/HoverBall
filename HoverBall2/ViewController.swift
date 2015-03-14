@@ -16,9 +16,14 @@ class ViewController: UIViewController {
     var shapeNode : SKShapeNode?
     var touchHash : Int?
     var scene : SKScene?
+    var screenWidth : Int!
+    var screenHeight : Int!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        screenWidth = view.frame.width
+        screenHeight = view.frame.height
         
         skView.showsPhysics = true
         skView.showsFPS = true
@@ -40,9 +45,23 @@ class ViewController: UIViewController {
         skView.presentScene(scene, transition: doorOpenX)
     }
     
+    updateSceneSize(toInterfaceOrientation: UIInterfaceOrientation)
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    override func supportedInterfaceOrientations() -> Int {
+        return Int(UIInterfaceOrientationMask.All.rawValue)
+    }
+    
+    override func shouldAutorotate() -> Bool {
+        return true
+    }
+    
+    override func prefersStatusBarHidden() -> Bool {
+        return true
     }
 
 }

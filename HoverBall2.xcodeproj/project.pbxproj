@@ -415,6 +415,7 @@
 				40F4EFA81AAB005900929FA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40F4EFA91AAB005900929FA9 /* Build configuration list for PBXNativeTarget "HoverBall2Tests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +424,7 @@
 				40F4EFAB1AAB005900929FA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

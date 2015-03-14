@@ -21,6 +21,7 @@ class BallScene: SKScene, SKPhysicsContactDelegate {
     
     let MOVEMENT_STEP = 50 as CGFloat
     let MOVEMENT_TIME = 0.2
+    let GROW_TIME = 0.1
     let OBSTACLE_WIDTH = 20 as CGFloat
     let COLLISION_SCALE = 0.7 as CGFloat
     let COLLISION_SCALE_DURATION = 0.2
@@ -185,13 +186,13 @@ class BallScene: SKScene, SKPhysicsContactDelegate {
                 SKAction.runBlock({
                     self.increase(self.mainNode!)
                 }),
-                SKAction.waitForDuration(MOVEMENT_TIME)
+                SKAction.waitForDuration(GROW_TIME)
                 ])
             ))
     }
     
     func increase(node: SKNode) {
-        node.runAction(SKAction.scaleBy(1.04, duration: MOVEMENT_TIME))
+        node.runAction(SKAction.scaleBy(1.04, duration: GROW_TIME))
     }
     
     override func touchesBegan(touches: NSSet, withEvent event: UIEvent) {
