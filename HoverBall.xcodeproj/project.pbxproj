@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		289B4AF61ADAAEE500F4F1D8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289B4AF51ADAAEE500F4F1D8 /* AppDelegate.swift */; };
+		289B4AF81ADAAEE500F4F1D8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289B4AF71ADAAEE500F4F1D8 /* ViewController.swift */; };
+		289B4AFB1ADAAEE500F4F1D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 289B4AF91ADAAEE500F4F1D8 /* Main.storyboard */; };
+		289B4AFD1ADAAEE600F4F1D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 289B4AFC1ADAAEE600F4F1D8 /* Images.xcassets */; };
+		289B4B001ADAAEE600F4F1D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 289B4AFE1ADAAEE600F4F1D8 /* LaunchScreen.xib */; };
+		289B4B0C1ADAAEE600F4F1D8 /* HoverBallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 289B4B0B1ADAAEE600F4F1D8 /* HoverBallTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		289B4B061ADAAEE600F4F1D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 289B4AE81ADAAEE500F4F1D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 289B4AEF1ADAAEE500F4F1D8;
+			remoteInfo = HoverBall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		289B4AF01ADAAEE500F4F1D8 /* HoverBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoverBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		289B4AF41ADAAEE500F4F1D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		289B4AF51ADAAEE500F4F1D8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		289B4AF71ADAAEE500F4F1D8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		289B4AFA1ADAAEE500F4F1D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		289B4AFC1ADAAEE600F4F1D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		289B4AFF1ADAAEE600F4F1D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		289B4B051ADAAEE600F4F1D8 /* HoverBallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HoverBallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		289B4B0A1ADAAEE600F4F1D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		289B4B0B1ADAAEE600F4F1D8 /* HoverBallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoverBallTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		289B4AED1ADAAEE500F4F1D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289B4B021ADAAEE600F4F1D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		289B4AE71ADAAEE500F4F1D8 = {
+			isa = PBXGroup;
+			children = (
+				289B4AF21ADAAEE500F4F1D8 /* HoverBall */,
+				289B4B081ADAAEE600F4F1D8 /* HoverBallTests */,
+				289B4AF11ADAAEE500F4F1D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		289B4AF11ADAAEE500F4F1D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				289B4AF01ADAAEE500F4F1D8 /* HoverBall.app */,
+				289B4B051ADAAEE600F4F1D8 /* HoverBallTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		289B4AF21ADAAEE500F4F1D8 /* HoverBall */ = {
+			isa = PBXGroup;
+			children = (
+				289B4AF51ADAAEE500F4F1D8 /* AppDelegate.swift */,
+				289B4AF71ADAAEE500F4F1D8 /* ViewController.swift */,
+				289B4AF91ADAAEE500F4F1D8 /* Main.storyboard */,
+				289B4AFC1ADAAEE600F4F1D8 /* Images.xcassets */,
+				289B4AFE1ADAAEE600F4F1D8 /* LaunchScreen.xib */,
+				289B4AF31ADAAEE500F4F1D8 /* Supporting Files */,
+			);
+			path = HoverBall;
+			sourceTree = "<group>";
+		};
+		289B4AF31ADAAEE500F4F1D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				289B4AF41ADAAEE500F4F1D8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		289B4B081ADAAEE600F4F1D8 /* HoverBallTests */ = {
+			isa = PBXGroup;
+			children = (
+				289B4B0B1ADAAEE600F4F1D8 /* HoverBallTests.swift */,
+				289B4B091ADAAEE600F4F1D8 /* Supporting Files */,
+			);
+			path = HoverBallTests;
+			sourceTree = "<group>";
+		};
+		289B4B091ADAAEE600F4F1D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				289B4B0A1ADAAEE600F4F1D8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		289B4AEF1ADAAEE500F4F1D8 /* HoverBall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 289B4B0F1ADAAEE600F4F1D8 /* Build configuration list for PBXNativeTarget "HoverBall" */;
+			buildPhases = (
+				289B4AEC1ADAAEE500F4F1D8 /* Sources */,
+				289B4AED1ADAAEE500F4F1D8 /* Frameworks */,
+				289B4AEE1ADAAEE500F4F1D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoverBall;
+			productName = HoverBall;
+			productReference = 289B4AF01ADAAEE500F4F1D8 /* HoverBall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		289B4B041ADAAEE600F4F1D8 /* HoverBallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 289B4B121ADAAEE600F4F1D8 /* Build configuration list for PBXNativeTarget "HoverBallTests" */;
+			buildPhases = (
+				289B4B011ADAAEE600F4F1D8 /* Sources */,
+				289B4B021ADAAEE600F4F1D8 /* Frameworks */,
+				289B4B031ADAAEE600F4F1D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				289B4B071ADAAEE600F4F1D8 /* PBXTargetDependency */,
+			);
+			name = HoverBallTests;
+			productName = HoverBallTests;
+			productReference = 289B4B051ADAAEE600F4F1D8 /* HoverBallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		289B4AE81ADAAEE500F4F1D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Simas Abramovas";
+				TargetAttributes = {
+					289B4AEF1ADAAEE500F4F1D8 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					289B4B041ADAAEE600F4F1D8 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 289B4AEF1ADAAEE500F4F1D8;
+					};
+				};
+			};
+			buildConfigurationList = 289B4AEB1ADAAEE500F4F1D8 /* Build configuration list for PBXProject "HoverBall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 289B4AE71ADAAEE500F4F1D8;
+			productRefGroup = 289B4AF11ADAAEE500F4F1D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				289B4AEF1ADAAEE500F4F1D8 /* HoverBall */,
+				289B4B041ADAAEE600F4F1D8 /* HoverBallTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		289B4AEE1ADAAEE500F4F1D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289B4AFB1ADAAEE500F4F1D8 /* Main.storyboard in Resources */,
+				289B4B001ADAAEE600F4F1D8 /* LaunchScreen.xib in Resources */,
+				289B4AFD1ADAAEE600F4F1D8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289B4B031ADAAEE600F4F1D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		289B4AEC1ADAAEE500F4F1D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289B4AF81ADAAEE500F4F1D8 /* ViewController.swift in Sources */,
+				289B4AF61ADAAEE500F4F1D8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		289B4B011ADAAEE600F4F1D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				289B4B0C1ADAAEE600F4F1D8 /* HoverBallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		289B4B071ADAAEE600F4F1D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 289B4AEF1ADAAEE500F4F1D8 /* HoverBall */;
+			targetProxy = 289B4B061ADAAEE600F4F1D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		289B4AF91ADAAEE500F4F1D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				289B4AFA1ADAAEE500F4F1D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		289B4AFE1ADAAEE600F4F1D8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				289B4AFF1ADAAEE600F4F1D8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		289B4B0D1ADAAEE600F4F1D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		289B4B0E1ADAAEE600F4F1D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		289B4B101ADAAEE600F4F1D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HoverBall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		289B4B111ADAAEE600F4F1D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HoverBall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		289B4B131ADAAEE600F4F1D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HoverBallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoverBall.app/HoverBall";
+			};
+			name = Debug;
+		};
+		289B4B141ADAAEE600F4F1D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HoverBallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HoverBall.app/HoverBall";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		289B4AEB1ADAAEE500F4F1D8 /* Build configuration list for PBXProject "HoverBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				289B4B0D1ADAAEE600F4F1D8 /* Debug */,
+				289B4B0E1ADAAEE600F4F1D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		289B4B0F1ADAAEE600F4F1D8 /* Build configuration list for PBXNativeTarget "HoverBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				289B4B101ADAAEE600F4F1D8 /* Debug */,
+				289B4B111ADAAEE600F4F1D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		289B4B121ADAAEE600F4F1D8 /* Build configuration list for PBXNativeTarget "HoverBallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				289B4B131ADAAEE600F4F1D8 /* Debug */,
+				289B4B141ADAAEE600F4F1D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 289B4AE81ADAAEE500F4F1D8 /* Project object */;
+}
