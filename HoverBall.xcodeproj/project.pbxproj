@@ -415,6 +415,7 @@
 				289B4B111ADAAEE600F4F1D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		289B4B121ADAAEE600F4F1D8 /* Build configuration list for PBXNativeTarget "HoverBallTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +424,7 @@
 				289B4B141ADAAEE600F4F1D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
